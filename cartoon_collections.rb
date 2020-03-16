@@ -16,8 +16,6 @@ def summon_captain_planet(array)
   nu_array
 end
 
-summon_captain_planet(planeteer_calls)
-
 def long_planeteer_calls(array)
   i = 0
   if  array.any? {|i| i.length > 4}
@@ -27,8 +25,6 @@ def long_planeteer_calls(array)
   i = i + 1
   end
 end
-
-long_planeteer_calls(call_screams)
 
 cheese_types = ["cheddar", "gouda", "camembert"]
 snacks = ["crackers", "gouda", "thyme"]
@@ -40,4 +36,3 @@ def find_the_cheese2(array, array2)
   end
 end
 
-find_the_cheese2(snacks, cheese_types)
