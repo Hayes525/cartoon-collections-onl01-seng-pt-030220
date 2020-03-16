@@ -9,8 +9,6 @@ end
 
 def summon_captain_planet# code an argument here
   # Your code her
-  nsuiefhu7nek
-  puts . =
 end
 
 def long_planeteer_calls# code an argument here
